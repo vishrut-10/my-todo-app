@@ -1,0 +1,24 @@
+{
+  "name": "my-todo-list",
+  "version": "1.0.0",
+  "description": "rewrite code of todo-list",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "vishrut mishra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishrut-10/my-todo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vishrut-10/my-todo-app/issues"
+  },
+  "homepage": "https://github.com/vishrut-10/my-todo-app#readme"
+}

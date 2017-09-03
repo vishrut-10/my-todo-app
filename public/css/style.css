@@ -1,0 +1,119 @@
+.myTodosHeader
+{
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: white;
+    text-shadow: 2px 2px red;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.add_button
+{
+    background-color: lightgreen;
+    font-size: 16px;
+}
+
+h3
+{
+    color: gray;
+    font-family: Arial;
+    margin-left: 100px;
+}
+
+#active
+{
+    color: gray;
+    font-family: Arial;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#add_new_todo
+{
+    margin-left: 225px;
+    background-color: lightcyan;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+
+#active_todos_div
+{
+    width: 300px;
+    border: 2px solid lightyellow;
+    padding: 15px;
+    margin-left: 225px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: lightyellow;
+    line-height: 150%;
+}
+
+#completed_todos_div
+{
+    width: 300px;
+    border: 2px solid lightyellow;
+    padding: 15px;
+    margin-left: 225px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: lightyellow;
+    line-height: 150%;
+    color: green;
+}
+
+#deleted_todos_div
+{
+    width: 300px;
+    border: 2px solid lightyellow;
+    padding: 15px;
+    margin-left: 225px;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: lightyellow;
+    line-height: 150%;
+    color: red;
+    text-decoration: line-through;
+}
+
+#checkbox_id
+{
+    float: left;
+    width: 25px;
+}
+
+#button_id
+{
+    float: right;
+    color: red;
+    background-color: lightyellow;
+    border-style: hidden;
+}
+
+.hide_button
+{
+    background-color: lightblue;
+    font-size: 16px;
+    margin-left: 225px;
+    margin-top: 2px;
+}
+
+.show_button
+{
+    background-color: lightblue;
+    font-size: 16px;
+    margin-left: 210px;
+    margin-top: 2px;
+}
+
+body
+{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-color: lightcyan;
+}

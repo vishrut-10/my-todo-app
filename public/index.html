@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Todo App</title>
+    <link rel = "shortcut icon" href = "/images/icon.jpg" />
+    <link rel = "stylesheet" href = "/css/style.css" />
+    <script src = "/js/script.js" type = "text/javascript"></script>
+</head>
+
+<body>
+
+<h1 class = "myTodosHeader">My Todos</h1>
+
+<h3 id = "active">Active Todos</h3>
+<div id = "active_todos_div"></div>
+
+<hr align= "left" width = "60%" color="black" >
+
+<h3>Add Todo</h3>
+<input type = "text" id = "add_new_todo" placeholder = "Enter New Todo" />
+<input class = "add_button" type = "button" value = "ADD" onclick="addTodoAJAX()"/>
+
+<hr align= "left" width = "60%" color="black" >
+
+<h3>Completed Todos</h3>
+<div id = "completed_todos_div"></div>
+<button class = "hide_button" onclick="hideCompletedTodo()">HIDE</button>
+<button class = show_button onclick="showCompletedTodo()">SHOW</button>
+
+<hr align= "left" width = "60%" color="black" >
+
+<h3>Deleted Todos</h3>
+<div id = "deleted_todos_div"></div>
+<button class = "hide_button" onclick="hideDeletedTodo()">HIDE</button>
+<button class = show_button onclick="showDeletedTodo()">SHOW</button>
+
+<hr align= "left" width = "60%" color="black" >
+
+</body>
+
+</html>
